@@ -1,0 +1,17 @@
+{
+  "client-a": {
+    "httpPort": 3001,
+    "mqttBroker": "broker:1883",
+    "tcpPort": 6001
+  },
+  "client-b": {
+    "httpPort": 3002,
+    "udpPort": 5002
+  },
+  "client-c": {
+    "httpPort": 3003,
+    "mqttBroker": "broker:1883",
+    "udpPort": 5143,
+    "tcpPort": 6003
+  }
+}

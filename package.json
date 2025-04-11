@@ -1,0 +1,32 @@
+{
+  "name": "hy-node-js-template",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "hyDev",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/swagger-ui-express": "^4.1.8",
+    "javascript-obfuscator": "^4.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/express": "^5.0.1",
+    "@types/lodash": "^4.17.16",
+    "@types/mqtt": "^0.0.34",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "mqtt": "^5.10.4",
+    "mysql2": "^3.14.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-typescript-api": "^13.0.28",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
